@@ -18,7 +18,7 @@ $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
    
 // Create the email and send the message
-$to = 'lulimonaco@id4you.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'mail@mail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Ha recibido un nuevo mensaje desde su sitio web de:  $name";
 $email_body = "Ha recibido un nuevo mensaje desde su sitio web.\n\n".
 "Estos son los detalles:\n
